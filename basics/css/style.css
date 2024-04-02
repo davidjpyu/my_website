@@ -1,0 +1,53 @@
+body {
+  font-family: "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-size: 1em;
+  color: #424649;
+  /* #3d4144 */
+  background-color: rgb(255, 255, 255);
+}
+
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+
+body header {
+  font-weight: bold;
+  font-size: 1.5em;
+  background-color: rgb(240, 238, 242);
+  padding: .5em;
+  margin-bottom: 1em;
+  margin-left: 0em;
+}
+
+.page_heading_menu a {
+  color: rgb(109, 107, 113);
+  text-decoration: underline;
+  margin-left: 20px;
+}
+
+.side_bar {
+  box-sizing: border-box;
+  width: 300px;
+  margin-left: 20px;
+  font-weight:300
+}
+
+.header_small_block-end {
+  margin-block-end: .2em;
+}
+
+p {
+  margin-block-start: 0em;
+  margin-block-end: 1em;
+}
+
+.social_icon {
+  margin-top: 1.5em;
+}
+
+.social_icon > a {
+    margin-right: 10px;
+}
