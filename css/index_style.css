@@ -1,0 +1,272 @@
+body {
+  font-family: "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-size: 1em;
+  color: #424649;
+  /* #3d4144 */
+  background-color: rgb(255, 255, 255);
+}
+
+h1 {
+  font-size: 1.7em;
+  font-weight: 700;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+
+}
+
+.side_bar h2 {
+  font-size: 1.15em;
+  font-weight: 500;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+
+body header {
+  font-weight: bold;
+  font-size: 1.5em;
+  background-color: rgb(255, 255, 255);
+  padding: .5em;
+  padding-bottom: .8em;
+  margin-bottom: 1em;
+  margin-left: 0em;
+  border-bottom: solid 1px rgb(210, 203, 216);
+}
+
+.page_content {
+  display: flex;
+  justify-content: start;
+}
+
+.page_content > .side_bar {
+  border-right: solid 1px rgb(210, 203, 216);
+}
+
+.page_heading_menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page_heading_menu a:hover {
+  color: rgb(110, 110, 110);
+  text-decoration: underline;
+}
+
+.page_heading_menu a {
+  color: rgb(130, 130, 130);
+  margin-left: 1em;
+  justify-content: space-between;
+}
+
+.page_heading_menu > .heading_menu_left {
+  margin-left: .7em;
+}
+
+.page_heading_menu > .heading_menu_right {
+  margin-right: 1em;
+}
+
+.side_bar {
+  box-sizing: border-box;
+  width: 20em;
+  margin-left: 3em;
+  padding-right: 3em;
+  font-weight:300;
+}
+
+.header_small_block-end {
+  margin-block-end: .2em;
+}
+
+p {
+  margin-block-start: 0em;
+  margin-block-end: 1em;
+}
+
+.social_icon {
+  margin-top: 1.5em;
+  margin-left: 1em;
+}
+
+.social_icon > a {
+    margin-right: 1em;
+}
+
+.author_avatar {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.author_avatar > img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border-color: #424649;
+  border-width: 1px;
+  object-fit: cover;
+  object-position: 50% 30%;
+}
+
+.author_content {
+  margin-left: 1em;
+  width: 13em;
+}
+
+.author_contact > p {
+  margin-bottom: .5em;
+}
+
+.social_icon img {
+  width: 30px;
+  height: 30px;
+}
+
+.main_body {
+  font-family: 'Monaco', 'Consolas', 'Courier New', monospace;
+  margin-right: 10em;
+}
+
+.introduction p {
+  font-family: 'Monaco', 'Consolas', 'Courier New', monospace;
+  margin-left: 3em;
+}
+
+.introduction p > a {
+  color: rgb(90, 50, 170);
+  text-decoration: underline;
+}
+
+.footer_content {
+  margin-top: 2em;
+  margin-left: 3em;
+}
+
+.main_body h2 {
+  margin-left: 2em;
+  font-weight: 400;
+  font-size: 1.4em;
+}
+
+.main_body ul {
+  margin-left: 1.5em;
+  columns: 2;
+}
+
+@media (min-width: 750px) and (max-width: 1099px) {
+  .main_body {
+    margin-right: 5em;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 749px) {
+  .main_body {
+    margin-right: 5em;
+  }
+
+  body header {
+    font-weight: bold;
+    font-size: 1em;
+    background-color: rgb(255, 255, 255);
+    padding: .5em;
+    padding-bottom: .8em;
+    margin-bottom: 1em;
+    margin-left: 0em;
+    border-bottom: solid 1px rgb(210, 203, 216);
+  }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 499px) {
+
+  body {
+    font-size: .4em;
+  }
+
+  h1 {
+    font-size: 1.2em;
+  }
+
+  .side_bar h2 {
+    font-size: .6em;
+  }
+
+  body header {
+    font-size: 1em;
+  }
+
+  .page_heading_menu a {
+    color: rgb(130, 130, 130);
+    margin-left: .5em;
+    justify-content: space-between;
+  }
+
+  .page_heading_menu > .heading_menu_left {
+    margin-left: .7em;
+  }
+
+  .page_heading_menu > .heading_menu_right {
+    margin-right: .2em;
+  }
+
+  .header_small_block-end {
+    margin-block-end: .2em;
+  }
+
+  .side_bar {
+    width: auto;
+    margin-left: 0em;
+    padding-right: 0em;
+  }
+
+  .author_avatar {
+    width: 100px;
+    height: 100px;
+  }
+
+  .author_avatar > img {
+    height: 100px;
+    width: 100px;
+  }
+
+  .author_content {
+    margin-left: 1em;
+    width: 25em;
+  }
+
+  .author_contact > p {
+    margin-bottom: .5em;
+  }
+
+  .social_icon img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .introduction p {
+    margin-left: 1em;
+  }
+
+  .main_body {
+    margin-right: 1em;
+  }
+
+  .footer_content {
+    margin-top: 1em;
+    margin-left: 1em;
+  }
+
+  .main_body h2 {
+    margin-left: 1em;
+  }
+
+  .main_body ul {
+    margin-left: .5em;
+    columns: 1;
+  }
+}
