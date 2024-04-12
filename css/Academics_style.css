@@ -296,7 +296,7 @@ p {
 
   .school_img img {
     height: 10em;
-    width: 100%
+    width: auto;
   }
 
   .school_name {

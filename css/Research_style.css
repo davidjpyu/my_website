@@ -331,12 +331,12 @@ p {
 
   .research_img img {
     height: 10em;
-    width: 100%;
+    width: auto;
   }
 
   .low_vision .research_img img {
     height: 10em;
-    width: 100%;
+    width: auto;
   }
 
   .research_info {
