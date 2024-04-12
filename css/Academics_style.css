@@ -129,33 +129,53 @@ p {
 
 .main_body {
   font-family: 'Monaco', 'Consolas', 'Courier New', monospace;
-  margin-right: 10em;
+  margin-right: 3em;
+  margin-left: 1em;
 }
 
-.introduction p {
-  font-family: 'Monaco', 'Consolas', 'Courier New', monospace;
-  margin-left: 3em;
+.path {
+  color: rgb(110, 110, 110);
+  margin-bottom: .5em;
 }
 
-.introduction p > a {
-  color: rgb(90, 50, 170);
-  text-decoration: underline;
+.path > a:hover {
+  color: rgb(90, 90, 90);
+}
+
+.path > .current_path {
+  color: rgb(90, 90, 90);
+  font-weight: bold;
+}
+.education {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.education > .school {
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: .5em;
+  margin-bottom: .5em;
+  border-top: solid 1px rgb(210, 203, 216);
+}
+
+.school_img img {
+  width: 15em;
+  height: 15em;
+  margin-right: 1em;
+  margin-top: 1em;
+}
+
+.school_name {
+  font-size: 1.6em;
+  font-weight: 400;
+  margin-left: 1em;
 }
 
 .footer_content {
   margin-top: 2em;
   margin-left: 3em;
-}
-
-.main_body h2 {
-  margin-left: 2em;
-  font-weight: 400;
-  font-size: 1.4em;
-}
-
-.main_body ul {
-  margin-left: 1.5em;
-  columns: 2;
 }
 
 @media (min-width: 750px) and (max-width: 1099px) {
@@ -257,10 +277,6 @@ p {
     height: 25px;
   }
 
-  .introduction p {
-    margin-left: 1em;
-  }
-
   .main_body {
     margin-right: 1em;
   }
@@ -270,12 +286,4 @@ p {
     margin-left: 1em;
   }
 
-  .main_body h2 {
-    margin-left: 1em;
-  }
-
-  .main_body ul {
-    margin-left: .5em;
-    columns: 1;
-  }
 }
