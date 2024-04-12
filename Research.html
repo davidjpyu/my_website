@@ -1,15 +1,16 @@
+<!DOCTYPE html>
 <html lang="en">
   <head> <!-- metadata information (not shown) -->
     <!-- support non-English characters -->
     <meta charset="utf-8">
     <!-- for searche engines, etc -->
     <meta name="author" content="Junpu Yu">
-    <meta name="description" content="Personal Website of Junpu Yu">
-    <meta name="keywords" content="Junpu Yu, Computer Science, Artificial Intelligence, Machine Learning, Research, Software Engineering, University of Washington, Carnegie Mellon University">
+    <meta name="description" content="Junpu Yu's research experience">
+    <meta name="keywords" content="Junpu Yu, Computer Science, Artificial Intelligence, Machine Learning, Research, Computer Vision, Reinforcement Learning, Makeability Lab">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <!-- title in tab-->
-    <title>Junpu Yu Portfolio</title>
-    <link rel="stylesheet" href="css/index_style.css">
+    <title>Junpu Yu Research Experience</title>
+    <link rel="stylesheet" href="css/Research_style.css">
   </head>
 
   <body>
@@ -21,8 +22,9 @@
 
         <div class="heading_menu_right">
             <a href="Academics.html">Academics</a>
-            <a href="WorkingExperience.html">Working Experience</a>
+            <a href="Working.html">Working</a>
             <a href="Research.html">Research</a>
+            <a href="Projects.html">Projects</a>
         </div>
       </div>
     </header>
@@ -94,64 +96,123 @@
       </div>
 
       <div class="main_body">
-        <div class="introduction">
-          <p>
-            Hi there! 👋 Welcome to my personal website!
-          </p>
-          <p>
-            I am Junpu Yu, a senior undergraduate student at 
-            <a href="https://www.washington.edu/">University of Washington</a>, 
-            majoring in 
-            <a href="https://www.cs.washington.edu/">Computer Science</a>, 
-             and minoring in 
-             <a href="https://amath.washington.edu/">Applied Mathematics</a>. 
-            Starting this fall, I will continue my study as a graduate student at 
-            <a href="https://www.cmu.edu/">Carnegie Mellon University</a>, 
-            majoring in 
-            <a href="https://engineering.cmu.edu/education/graduate-studies/programs/ms-aie.html">Artificial Intelligence Engineering</a>.
-          </p>
-          <p>
-            I am also a researcher at the 
-            <a href="https://makeabilitylab.cs.washington.edu/">Makeability Lab</a>, 
-            working on projects related to Human-Computer Interaction (HCI) and Accessibility. I am passionate about using technology to help people with disabilities and improve their quality of life. 
-          </p>
-          <p>
-            Currently, I am actively looking for internship opportunities in the field of Machine Learning, Artificial Intelligence, and Software Engineering. Please feel free to reach out to me if you have any opportunities or questions! 😊
-          </p>
+        <div class="path">
+          <a href="index.html">Home</a> /
+          <span class="current_path">
+            <a href="Research.html">Research Experience</a>
+          </span>
         </div>
+        <div class="researches">
 
-        <div class="programming_languages">
-          <h2 class="programming_languages_header"> Programming Languages: </h2>
-          <ul>
-            <li>Python</li>
-            <li>Java</li>
-            <li>C++</li>
-            <li>C</li>
-            <li>JavaScript</li>
-            <li>HTML/CSS</li>
-          </ul>
-        </div>
+          <div class="low_vision research">
+            <div class="research_img">
+              <a href="https://makeabilitylab.cs.washington.edu/">
+                <img src="img/MakeabilityLab_logo.png" alt="Makeability">
+              </a>
+              <a href="https://www.washington.edu/">
+                <img src="img/UW_logo.png" alt="UW">
+              </a>
+            </div>
+            <div class="research_info">
+              <div class="research_topic">
+                <b>AR Cooking Accessibility for Low Vision People</b>
+              </div>
+              <div class="position_duration">
+                <div class="position">
+                  Researcher under 
+                  <a href="https://jonfroehlich.github.io/">Professor Jon E. Froehlich</a>
+                </div>
+                <div class="duration">
+                  February 2023 - Present
+                </div>
+              </div>
+              <div class="lab">
+                <a href="https://makeabilitylab.cs.washington.edu/">Makeability Lab</a>
+              </div>
+              <div class="concentration">Concentration: Computer Vision</div>
+              <div class="research_description">
+                <ul>
+                  <li>Collected datasets for cooking Appliances and designed machine learning algorithms for cooking hazard detection</li>
+                  <li>Implemented and compared detectron2 and other libraries with different models including Mask R-CNN for object segmentation</li>
+                  <li>Created datasets for kitchen utensils (e.g., knife) and labeled on affordances (e.g. blade and handle) in Roboflow</li>
+                  <li>Trained, tested, and finetuned the RTMDet model on the dataset using mmdetection libraries by creating config files</li>
+                  <li>Second Author with Paper at UIST: <br>
+                    CookAR: Affordance Augmentations in Wearable AR to Support Kitchen Tool Interactions for People with Low Vision
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
 
-        <div class="skill_set">
-          <h2 class="skill_set_header"> Skill Set: </h2>
-          <ul>
-            <li>Machine Learning</li>
-            <li>Deep Learning</li>
-            <li>Artificial Intelligence</li>
-            <li>Computer Vision</li>
-            <li>Natural Language Processing</li>
-            <li>Software Development</li>
-            <li>Full-Stack Development</li>
-            <li>Database Management Systems</li>
-            <li>Operating System</li>
-            <li>Algorithms & Data Structures</li>
-            <li>Concurrency & Parallelism</li>
-            <li>Data Analysis</li>
-          </ul>
+          <div class="multi-armed research">
+            <div class="research_img">
+              <a href="https://www.cmu.edu/">
+                <img src="img/CMU_logo.png" alt="CMU">
+              </a>
+            </div>
+            <div class="research_info">
+              <div class="research_topic">
+                <b>Multi-armed Bandits Algorithms, Theory, and Application</b>
+              </div>
+              <div class="position_duration">
+                <div class="position">
+                  Researcher under 
+                  <a href="https://users.ece.cmu.edu/~oyagan/index.html">Professor Osman Yağan</a>
+                </div>
+                <div class="duration">
+                  February 2023 - April 2023
+                </div>
+              </div>
+              <div class="concentration">Concentration: Reinforcement Learning</div>
+              <div class="research_description">
+                <ul>
+                  <li>Implemented algorithms including ETC, UCB, and Thompson Sampling to solve multi-armed bandits problems and performed comparative analysis to determine the best performing algorithm in different kinds of situations</li>
+                  <li>Conducted research on deep learning models and adversarial attack + defense algorithms and mechanisms</li>
+                  <li>First Author with Paper at ACE: <br>
+                    <a href="https://ace.ewapublishing.org/article/0e37c5264b714a7a82f42430b4073f56">
+                      Thompson ε-Greedy Algorithm: An Improvement to the Regret of Thompson Sampling and ε-Greedy on Multi-Armed Bandit Problems
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="logical_equivalence research">
+            <div class="research_img">
+              <a href="https://www.washington.edu/">
+                <img src="img/UW_logo.png" alt="UW">
+              </a>
+            </div>
+            <div class="research_info">
+              <div class="research_topic">
+                <b>Formula on Logical Equivalence of theoretical CS Without Using "Or"</b>
+              </div>
+              <div class="position_duration">
+                <div class="position">
+                  Researcher under 
+                  <a href="https://twitter.com/kczat/">Professor Kevin Zatloukal</a>
+                </div>
+                <div class="duration">
+                  March 2022 - June 2022
+                </div>
+              </div>
+              <div class="concentration">Concentration: Computer Theory</div>
+              <div class="research_description">
+                <ul>
+                  <li>Figured out what logical statements can be proved by strictly elimination rules followed by introduction rules</li>
+                  <li>Formulated the hypothesis and classified proofs that support or reject the hypothesis by traversing past courses materials</li>
+                  <li>Improved the hypothesis by adding restrictions for input and creating rules for the computation process, aiming at creating a general model of elim+intro rules and its applications</li>
+                  <li>Employed logical equivalence and inference rules of theoretical computer science for the deduction process of the proofs</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
-
+       
     <footer class="page_footer">
       <div class="footer_content">
         <p>
