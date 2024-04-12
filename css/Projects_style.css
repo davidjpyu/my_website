@@ -293,6 +293,23 @@ p {
     margin-right: 1em;
   }
 
+  .side_bar {
+    display: none;
+  }
+
+  .projects > .project {
+    flex-direction: column;
+  }
+
+  .project_name {
+    text-align: center;
+  }
+
+  .position_duration {
+    flex-direction: column;
+    text-align: center;
+  }
+
   .footer_content {
     margin-top: 1em;
     margin-left: 1em;

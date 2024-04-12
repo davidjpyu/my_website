@@ -251,16 +251,6 @@ p {
     margin-block-end: .2em;
   }
 
-  .side_bar {
-    width: auto;
-    margin-left: 0em;
-    padding-right: 0em;
-  }
-
-  .side_bar h2 {
-    font-size: 1em;
-  }
-
   .author_avatar {
     width: 100px;
     height: 100px;
@@ -287,6 +277,30 @@ p {
 
   .main_body {
     margin-right: 1em;
+  }
+
+  .side_bar {
+    display: none;
+  }
+
+  .education > .school {
+    flex-direction: column;
+  }
+
+  .school_img {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  .school_img img {
+    height: 10em;
+    width: 100%
+  }
+
+  .school_name {
+    text-align: center;
   }
 
   .footer_content {
